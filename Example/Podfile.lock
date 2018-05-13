@@ -1,0 +1,16 @@
+PODS:
+  - PRGSegmentBar (0.1.0)
+
+DEPENDENCIES:
+  - PRGSegmentBar (from `../`)
+
+EXTERNAL SOURCES:
+  PRGSegmentBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PRGSegmentBar: e4fdd7b5db32332effe25abb9fe893d91c2e8793
+
+PODFILE CHECKSUM: 0553b064580b4e3ade72257a36e574d1cfa880b0
+
+COCOAPODS: 1.4.0

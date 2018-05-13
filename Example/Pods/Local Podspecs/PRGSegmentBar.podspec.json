@@ -1,0 +1,22 @@
+{
+  "name": "PRGSegmentBar",
+  "version": "0.1.0",
+  "summary": "A short description of PRGSegmentBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rookiePRG/PRGSegmentBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rookiePRG": "prg_change@163.com"
+  },
+  "source": {
+    "git": "https://github.com/rookiePRG/PRGSegmentBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PRGSegmentBar/Classes/**/*"
+}
