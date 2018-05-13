@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PRGSegmentBar_Example' do
+  pod 'PRGSegmentBar', :path => '../'
+
+  target 'PRGSegmentBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
