@@ -12,8 +12,6 @@
 
 /**
  代理方法
-
- @param segmentBar segmentBar
  @param toIndex 选中的索引
  @param fromIndex 上一个索引
  */
