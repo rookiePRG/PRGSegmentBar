@@ -1,5 +1,5 @@
 PODS:
-  - PRGSegmentBar (0.1.0)
+  - PRGSegmentBar (0.1.1)
 
 DEPENDENCIES:
   - PRGSegmentBar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PRGSegmentBar: e4fdd7b5db32332effe25abb9fe893d91c2e8793
+  PRGSegmentBar: 68be98903ab5dde4692b68149a8827dc97df8925
 
 PODFILE CHECKSUM: 0553b064580b4e3ade72257a36e574d1cfa880b0
 

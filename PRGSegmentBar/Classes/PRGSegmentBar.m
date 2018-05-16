@@ -105,6 +105,7 @@
     _segmentBarConfig = segmentBarConfig;
     self.backgroundColor = segmentBarConfig.segmentBarBackColor;
     self.lineView.height = segmentBarConfig.lineHeight;
+    self.lineView.backgroundColor = segmentBarConfig.lineColor;
     
     // 选项颜色/字体
     for (UIButton *btn in self.itemBtns) {
