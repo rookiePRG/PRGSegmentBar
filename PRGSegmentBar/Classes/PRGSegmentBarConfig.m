@@ -67,7 +67,7 @@
 -(CGFloat)lineExtraW
 {
     if (_lineExtraW<=0) {
-        _lineExtraW = 10;
+        _lineExtraW = 0;
     }
     return _lineExtraW;
 }

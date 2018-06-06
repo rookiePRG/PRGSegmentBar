@@ -12,14 +12,14 @@
 		090F79403F972A4C18748CDE6C8D0469 /* PRGSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E12D298E1E46DEA10395D8389F8784 /* PRGSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B87B148408E4B0BDC253F180F46F30E /* PRGSegmentBarVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 930A1D40AF15045C44830F6367B4BE72 /* PRGSegmentBarVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C8F58DE0B0EE9D7D4DB495A4058A6D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0DE167F489BA8E130C0D1A5D72CD4DE1 /* Pods-PRGSegmentBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C090609B3631035B9AE833A9A3CB0F95 /* Pods-PRGSegmentBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B6CAC706319E41D3E2FDB2E01FBD05 /* PRGSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DBB37EDF60073CACAAD2F5B4A0EF2 /* PRGSegmentBarConfig.m */; };
-		1BEE75019D64DEA6F0EF7E8BEE7892AE /* Pods-PRGSegmentBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C090609B3631035B9AE833A9A3CB0F95 /* Pods-PRGSegmentBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7E7D596D2F264460E8E14ECB156FDA /* Pods-PRGSegmentBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A100C261C5BDD1BF25A90C4669E59C /* Pods-PRGSegmentBar_Tests-dummy.m */; };
 		2DF47D2844E350B49F457E51A56735D6 /* PRGSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 852C7816B94D32474B2728661758541A /* PRGSegmentBarVC.m */; };
 		45B6E63D8F4149F6D0A9285F24754296 /* UIView+RGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 897BC3457E835BFE2C5B8315B3CEF662 /* UIView+RGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		547716FB446C8B4FCA703F58FA8DB0BC /* Pods-PRGSegmentBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A100C261C5BDD1BF25A90C4669E59C /* Pods-PRGSegmentBar_Tests-dummy.m */; };
-		6AF6BC15ECE376DCC2C84161348E379D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7437062F005A6AF36C4E71D6E9629F68 /* Pods-PRGSegmentBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6545383B1E3263DAF4766117A9AD35ED /* Pods-PRGSegmentBar_Example-dummy.m */; };
 		7FEBB0357E7D261931CD9CA968D0647E /* PRGSegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 167527D91054AB71746A018B4E87EF41 /* PRGSegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B870CCE07D0A1CE430E337B8449362F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B9155CA2FE2F7869C2A3561149FE4F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C7C1F2B8A1F78B317BC976FA9BD1FD23 /* UIView+RGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA331322E0999C1D8FF4AEA56D7760 /* UIView+RGLayout.m */; };
 		D1CD522AE32EF3AEE1C5821B70CD4C85 /* PRGSegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F663A5641E2AB9F287BDC3D88EDC5F4E /* PRGSegmentBar-dummy.m */; };
@@ -27,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8AC191667FEA642BA6BAB0AA7777693B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC5D28AC626DBD3329A38130940C3F0;
+			remoteInfo = "Pods-PRGSegmentBar_Example";
+		};
 		F958FB71A91D96BAE9E7B1F71F00DD59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -82,19 +89,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		218394376D32BD17164FB44FF2B47FA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AF6BC15ECE376DCC2C84161348E379D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		300BB6A145A46635BDB07A8138B76F31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B9155CA2FE2F7869C2A3561149FE4F11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32040BAEBAE52F38D5F2E88C02348072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B870CCE07D0A1CE430E337B8449362F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +263,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68B2FF14575E53247B7DB6F2DF896FB0 /* Headers */ = {
+		685AA0F6B25FD40BC9E392E0E17C23E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEE75019D64DEA6F0EF7E8BEE7892AE /* Pods-PRGSegmentBar_Tests-umbrella.h in Headers */,
+				0DE167F489BA8E130C0D1A5D72CD4DE1 /* Pods-PRGSegmentBar_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +282,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		192222CF5660596A36634D6CF07B130E /* Pods-PRGSegmentBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E7A4ED9561200A351362AA11C8C514 /* Build configuration list for PBXNativeTarget "Pods-PRGSegmentBar_Tests" */;
+			buildPhases = (
+				1B7D7F99C5A22A7D54D3C31C8AEA0146 /* Sources */,
+				32040BAEBAE52F38D5F2E88C02348072 /* Frameworks */,
+				685AA0F6B25FD40BC9E392E0E17C23E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				127A70ECA95A1849990E2D786432A1E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PRGSegmentBar_Tests";
+			productName = "Pods-PRGSegmentBar_Tests";
+			productReference = 14F10FBF2F5C561F37600735B023486D /* Pods_PRGSegmentBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		20852040A9842F14B573CC3F526C6DD9 /* PRGSegmentBar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00ED6749E9BD6AAEADA033F66780002F /* Build configuration list for PBXNativeTarget "PRGSegmentBar" */;
@@ -310,23 +335,6 @@
 			productReference = 6B6E95E79971FBD3414DA61AA3FEE4C2 /* Pods_PRGSegmentBar_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB46380F0F417E474C375933C14FD7B1 /* Pods-PRGSegmentBar_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 464D4A9CBD8557CB36207D57EEA13E6E /* Build configuration list for PBXNativeTarget "Pods-PRGSegmentBar_Tests" */;
-			buildPhases = (
-				676871D5ECD5C875CB5A003C2A944283 /* Sources */,
-				218394376D32BD17164FB44FF2B47FA2 /* Frameworks */,
-				68B2FF14575E53247B7DB6F2DF896FB0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PRGSegmentBar_Tests";
-			productName = "Pods-PRGSegmentBar_Tests";
-			productReference = 14F10FBF2F5C561F37600735B023486D /* Pods_PRGSegmentBar_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -349,13 +357,21 @@
 			projectRoot = "";
 			targets = (
 				BAC5D28AC626DBD3329A38130940C3F0 /* Pods-PRGSegmentBar_Example */,
-				DB46380F0F417E474C375933C14FD7B1 /* Pods-PRGSegmentBar_Tests */,
+				192222CF5660596A36634D6CF07B130E /* Pods-PRGSegmentBar_Tests */,
 				20852040A9842F14B573CC3F526C6DD9 /* PRGSegmentBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B7D7F99C5A22A7D54D3C31C8AEA0146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7E7D596D2F264460E8E14ECB156FDA /* Pods-PRGSegmentBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BB219F16ACC0EAD036C160B75927C59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,14 +381,6 @@
 				13B6CAC706319E41D3E2FDB2E01FBD05 /* PRGSegmentBarConfig.m in Sources */,
 				2DF47D2844E350B49F457E51A56735D6 /* PRGSegmentBarVC.m in Sources */,
 				C7C1F2B8A1F78B317BC976FA9BD1FD23 /* UIView+RGLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		676871D5ECD5C875CB5A003C2A944283 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				547716FB446C8B4FCA703F58FA8DB0BC /* Pods-PRGSegmentBar_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +395,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		127A70ECA95A1849990E2D786432A1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PRGSegmentBar_Example";
+			target = BAC5D28AC626DBD3329A38130940C3F0 /* Pods-PRGSegmentBar_Example */;
+			targetProxy = 8AC191667FEA642BA6BAB0AA7777693B /* PBXContainerItemProxy */;
+		};
 		CCFAC77FB01D7BCA2B7CC65ED98EBC5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PRGSegmentBar;
@@ -396,102 +410,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B589A224BA80B0CE734770B2E7361A9 /* Debug */ = {
+		04661F6E2AA0FCCB8A62292A9990202C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E99BAED2220F85E33993B3979DBE46DE /* PRGSegmentBar.xcconfig */;
+			baseConfigurationReference = 2C83CABA8434B2FB366CE95A82C95331 /* Pods-PRGSegmentBar_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PRGSegmentBar/PRGSegmentBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRGSegmentBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRGSegmentBar/PRGSegmentBar.modulemap";
-				PRODUCT_NAME = PRGSegmentBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		42AD5F0D492A9FBB01C1DE853393094C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAE8A2CB1A4186B769B5CE23C0BBB33D /* Pods-PRGSegmentBar_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Pods-PRGSegmentBar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PRGSegmentBar_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5D941573F627A80931AC5531A41ED2B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E99BAED2220F85E33993B3979DBE46DE /* PRGSegmentBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PRGSegmentBar/PRGSegmentBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRGSegmentBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRGSegmentBar/PRGSegmentBar.modulemap";
-				PRODUCT_NAME = PRGSegmentBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		775BB4F1E26E1B16DCA7A90D3BB2E358 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3117C8399C3E828176C3D93064A9C61 /* Pods-PRGSegmentBar_Example.release.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -511,19 +434,18 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PRGSegmentBar_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7F5EADA33317AF45F1A82C634FCDF331 /* Debug */ = {
+		187A478C4ABD82A2AD6F9551D0A0C267 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D783264369B3D044221799B2431CBB56 /* Pods-PRGSegmentBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = E99BAED2220F85E33993B3979DBE46DE /* PRGSegmentBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -534,26 +456,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PRGSegmentBar/PRGSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRGSegmentBar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Pods-PRGSegmentBar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PRGSegmentBar_Tests;
+				MODULEMAP_FILE = "Target Support Files/PRGSegmentBar/PRGSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = PRGSegmentBar;
+				PRODUCT_NAME = PRGSegmentBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -585,6 +506,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -609,17 +531,47 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C6C8F0A57A5DD82360146569C1732A94 /* Debug */ = {
+		3CDACCFDBED26A86AC0A99A464E2079A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C83CABA8434B2FB366CE95A82C95331 /* Pods-PRGSegmentBar_Example.debug.xcconfig */;
+			baseConfigurationReference = E99BAED2220F85E33993B3979DBE46DE /* PRGSegmentBar.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PRGSegmentBar/PRGSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRGSegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRGSegmentBar/PRGSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = PRGSegmentBar;
+				PRODUCT_NAME = PRGSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		789A477009F397E6C6897DBF1B8C2D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3117C8399C3E828176C3D93064A9C61 /* Pods-PRGSegmentBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -639,7 +591,75 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PRGSegmentBar_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AFF50D9BDFA29F0AD633FB79686CD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE8A2CB1A4186B769B5CE23C0BBB33D /* Pods-PRGSegmentBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Pods-PRGSegmentBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA04F80D3BB22183C6382424471043DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D783264369B3D044221799B2431CBB56 /* Pods-PRGSegmentBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PRGSegmentBar_Tests/Pods-PRGSegmentBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,7 +668,7 @@
 			};
 			name = Debug;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -680,6 +700,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -700,7 +721,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -712,8 +732,17 @@
 		00ED6749E9BD6AAEADA033F66780002F /* Build configuration list for PBXNativeTarget "PRGSegmentBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B589A224BA80B0CE734770B2E7361A9 /* Debug */,
-				5D941573F627A80931AC5531A41ED2B8 /* Release */,
+				3CDACCFDBED26A86AC0A99A464E2079A /* Debug */,
+				187A478C4ABD82A2AD6F9551D0A0C267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E7A4ED9561200A351362AA11C8C514 /* Build configuration list for PBXNativeTarget "Pods-PRGSegmentBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA04F80D3BB22183C6382424471043DE /* Debug */,
+				9AFF50D9BDFA29F0AD633FB79686CD63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -721,17 +750,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		464D4A9CBD8557CB36207D57EEA13E6E /* Build configuration list for PBXNativeTarget "Pods-PRGSegmentBar_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7F5EADA33317AF45F1A82C634FCDF331 /* Debug */,
-				42AD5F0D492A9FBB01C1DE853393094C /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,8 +759,8 @@
 		CEF04513670B912FDC57E0F404262B5A /* Build configuration list for PBXNativeTarget "Pods-PRGSegmentBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6C8F0A57A5DD82360146569C1732A94 /* Debug */,
-				775BB4F1E26E1B16DCA7A90D3BB2E358 /* Release */,
+				04661F6E2AA0FCCB8A62292A9990202C /* Debug */,
+				789A477009F397E6C6897DBF1B8C2D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

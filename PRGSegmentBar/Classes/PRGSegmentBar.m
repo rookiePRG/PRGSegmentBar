@@ -55,10 +55,12 @@
 
 -(void)updateViewWithConfig:(void (^)(PRGSegmentBarConfig *))configBlock
 {
+    PRGSegmentBarConfig *config = [[PRGSegmentBarConfig alloc] init];
+    
     if (configBlock) {
-        configBlock(self.segmentBarConfig);
+        configBlock(config);
     }
-    self.segmentBarConfig = self.segmentBarConfig;
+    self.segmentBarConfig = config;
     
 }
 
@@ -218,10 +220,6 @@
         scrollView的contentOffset.X 最大就是scrollView.contentSize.width - scrollView.width
      
      */
-    if (self.contentView.width == 0) {
-        
-        return;
-    }
     CGFloat scrollX = sender.centerX - self.contentView.width * 0.5;
     
     if (scrollX < 0) {
